@@ -1,0 +1,31 @@
+package com.manju.mylibrary.data
+
+data class IpInfo(
+    val ip: String,
+    val network: String,
+    val version: String,
+    val city: String,
+    val region: String,
+    val regionCode: String,
+    val country: String,
+    val countryName: String,
+    val countryCode: String,
+    val countryCodeIso3: String,
+    val countryCapital: String,
+    val countryTLD: String,
+    val continentCode: String,
+    val inEu: Boolean,
+    val postal: String,
+    val latitude: Double,
+    val longitude: Double,
+    val timezone: String,
+    val utcOffset: String,
+    val countryCallingCode: String,
+    val currency: String,
+    val currencyName: String,
+    val languages: String,
+    val countryArea: Long,
+    val countryPopulation: Long,
+    val asn: String,
+    val org: String
+)
